@@ -91,6 +91,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             buildButton("="),
             buildButton("+")
           ]),
+           Row(children: [buildButton("^2"), buildButton("%")]),
         ],
       ),
     );
